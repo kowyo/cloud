@@ -23,23 +23,26 @@ import WarpBackground from "../components/warp-background";
 			<div class="p-4 sm:p-8 absolute w-full h-dvh flex flex-col justify-between z-10">
 				<div>
 					<H1 size="large"> Kowyo <br /> Cloud </H1>
+					<p class="mt-4 max-w-md text-zinc-300 text-lg leading-relaxed">
+						Next-generation cloud compute for AI-intensive applications. Run your AI workloads on infrastructure built for performance and scale.
+					</p>
+					<a href="mailto:hi@kowyo.com" class="mt-6 w-fit flex items-center gap-2 px-4 py-2 rounded-lg bg-white hover:bg-zinc-100 text-zinc-900 transition-colors text-sm font-medium">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<rect width="20" height="16" x="2" y="4" rx="2"/>
+							<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+						</svg>
+						<span>Contact us</span>
+						<span class="text-zinc-500">hi@kowyo.com</span>
+					</a>
 				</div>
 
-				<!-- <div>
-					<AvailableForWork className="py-4" />
-					<div class="mb-2 sm:mb-4 flex items-center justify-between">
-						<div class="flex items-center gap-4">
-							<Link href="#">Book a call</Link>
-							<Link href="/projects" variant="secondary">View recent work</Link>
-						</div>
-
-						<Navigation client:load>
-							<Link href="/blog" variant="secondary">Blog</Link>
-							<Link href="/about" variant="secondary">About</Link>
-							<Link href="/contact" variant="secondary">Contact</Link>
-						</Navigation>
+				<div class="mb-2 sm:mb-4 flex flex-col gap-3">
+					<div class="flex items-center gap-4 text-sm text-zinc-100">
+						<span>Singapore</span>
+						<a href="/terms" class="hover:text-zinc-300 underline">Terms of Service</a>
+						<a href="/privacy" class="hover:text-zinc-300 underline">Privacy Policy</a>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</main>
