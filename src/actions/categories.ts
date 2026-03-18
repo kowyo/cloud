@@ -1,6 +1,6 @@
-import { z } from "astro:schema";
 import { defineAction } from "astro:actions";
 import { getCollection } from "astro:content";
+import { z } from "astro/zod";
 
 export const categories = {
     getCategories: defineAction({

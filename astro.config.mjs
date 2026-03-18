@@ -8,21 +8,19 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-   output: 'server',
+  output: 'server',
   vite: {
     plugins: [tailwindcss()]
   },
 
   integrations: [react()],
 
-  experimental: {
-    fonts: [{
-      provider: fontProviders.google(),
-      name: "Geist",
-      cssVariable: "--font-geist",
-      fallbacks: ["Inter", "sans-serif"],
-    }]
-  },
+  fonts: [{
+    provider: fontProviders.google(),
+    name: "Geist",
+    cssVariable: "--font-geist",
+    fallbacks: ["Inter", "sans-serif"],
+  }],
 
   adapter: cloudflare()
 });
