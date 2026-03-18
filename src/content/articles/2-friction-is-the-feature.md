@@ -13,6 +13,7 @@ cover: https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_
 ---
 
 # friction is the feature
+
 in a world where everything is free, nothing is valued.
 
 scroll, like, forget.
@@ -38,4 +39,3 @@ they invest, not just money, but meaning.
 skin in the game isn’t about dollars.
 
 it’s about care.
-
