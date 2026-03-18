@@ -4,7 +4,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 
-import vercel from "@astrojs/vercel";
+import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,5 +24,5 @@ export default defineConfig({
     }]
   },
 
-  adapter: vercel()
+  adapter: cloudflare()
 });
